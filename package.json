@@ -1,0 +1,35 @@
+{
+  "name": "api-rest-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/api-rest-backend/api-rest-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/api-rest-backend/api-rest-portfolio/issues"
+  },
+  "homepage": "https://github.com/api-rest-backend/api-rest-portfolio#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.15",
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "ts-jest": "^29.0.3",
+    "ts-node-dev": "^2.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "cors": "^2.8.5"
+  }
+}
