@@ -84,5 +84,34 @@
                 "time": ""
             }
         ]
-    }
+    },
+
+    "portfolio": [
+        {
+            "name": "",
+            "description": "",
+            "url": "",
+            "languages": [],
+            "githubUrl":"",
+            "image":""
+        },
+        {
+            "name": "",
+            "description": "",
+            "url": "",
+            "languages": [],
+            "githubUrl":"",
+            "image":""
+        },
+        {
+            "name": "",
+            "description": "",
+            "url": "",
+            "languages": [],
+            "githubUrl":"",
+            "image":""
+        }
+
+    ]
 }
+
