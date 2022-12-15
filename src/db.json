@@ -85,33 +85,30 @@
             }
         ]
     },
-
     "portfolio": [
         {
             "name": "",
             "description": "",
             "url": "",
             "languages": [],
-            "githubUrl":"",
-            "image":""
+            "githubUrl": "",
+            "image": ""
         },
         {
             "name": "",
             "description": "",
             "url": "",
             "languages": [],
-            "githubUrl":"",
-            "image":""
+            "githubUrl": "",
+            "image": ""
         },
         {
             "name": "",
             "description": "",
             "url": "",
             "languages": [],
-            "githubUrl":"",
-            "image":""
+            "githubUrl": "",
+            "image": ""
         }
-
     ]
 }
-
