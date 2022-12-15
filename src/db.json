@@ -1,0 +1,88 @@
+{
+    "cv": {
+        "personalData": {
+            "name": "",
+            "surname": "",
+            "label": "",
+            "img": "",
+            "location": "",
+            "email": "",
+            "phone": "",
+            "linkedin": "",
+            "github": "",
+            "summary": ""
+        },
+        "techSkills": [
+            {
+                "name": "",
+                "level": ""
+            },
+            {
+                "name": "",
+                "level": ""
+            },
+            {
+                "name": "",
+                "level": ""
+            },
+            {
+                "name": "",
+                "level": ""
+            }
+        ],
+        "softSkills": [
+            {
+                "name": "",
+                "level": ""
+            },
+            {
+                "name": "",
+                "level": ""
+            },
+            {
+                "name": "",
+                "level": ""
+            },
+            {
+                "name": "",
+                "level": ""
+            }
+        ],
+        "lenguages": [
+            {
+                "name": "",
+                "level": ""
+            },
+            {
+                "name": "",
+                "level": ""
+            },
+            {
+                "name": "",
+                "level": ""
+            },
+            {
+                "name": "",
+                "level": ""
+            }
+        ],
+        "experience": [
+            {
+                "position": "",
+                "time": ""
+            },
+            {
+                "position": "",
+                "time": ""
+            },
+            {
+                "position": "",
+                "time": ""
+            },
+            {
+                "position": "",
+                "time": ""
+            }
+        ]
+    }
+}
