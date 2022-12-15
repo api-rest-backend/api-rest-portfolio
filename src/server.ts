@@ -1,1 +1,2 @@
-console.log('gatito');
+const name:string = "gal"
+console.log(name)
