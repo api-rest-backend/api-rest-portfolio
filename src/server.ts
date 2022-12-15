@@ -1,2 +1,4 @@
-const name:string = "gal"
-console.log(name)
+import express, {Request, Response} from "express";
+import cors from 'cors';
+
+const app = express();
