@@ -1,9 +1,7 @@
-import express, { Request, Response } from "express";
-import cors from 'cors';
+import app from './app';
 
-const app = express();
-app.use(cors());
-app.use(express.json());
-
+// START SERVER
 const PORT = 3000
-app.listen(PORT, () => console.log(`server running on port ${PORT}`))
+const server = app.listen(PORT, () => console.log(`server running on port ${PORT}`))
+
+export default server 
