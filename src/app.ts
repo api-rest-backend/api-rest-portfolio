@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
 import cors from 'cors';
 
-import { endPoints } from "./controllers/api"
+import portfolioRouter from "./routes/portfolio.route"
 
 // CREATE EXPRESS SERVER
 
@@ -11,6 +11,6 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
+app.use(portfolioRouter)
 
 export default app
