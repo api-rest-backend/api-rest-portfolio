@@ -9,5 +9,16 @@ export const dataBase = {
     },
     getProject: ()=> {
         return content.portfolio
+    },
+    postProject: ()=> {
+        const newProject = {
+            "name": "",
+            "description": "",
+            "url": "",
+            "languages": [],
+            "githubUrl": "",
+            "image": ""
+        } 
+        content.portfolio.push(newProject);
     }
 }

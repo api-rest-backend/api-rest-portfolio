@@ -88,8 +88,7 @@
         },
         "portfolio": [
             {
-                "id": "1",
-                "name": "",
+                "name": "Project 0",
                 "description": "",
                 "url": "",
                 "languages": [],
@@ -97,8 +96,7 @@
                 "image": ""
             },
             {
-                "id": "2",
-                "name": "",
+                "name": "Project 1",
                 "description": "",
                 "url": "",
                 "languages": [],
@@ -106,8 +104,7 @@
                 "image": ""
             },
             {
-                "id": "3",
-                "name": "",
+                "name": "Project 2",
                 "description": "",
                 "url": "",
                 "languages": [],
