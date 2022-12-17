@@ -96,6 +96,7 @@
   },
   "exclude": [
     "jest.config.js",
-    "./build"
+    "./build",
+    "./test"
   ]
 }

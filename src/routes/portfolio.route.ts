@@ -3,6 +3,13 @@ import { contentCtrl } from '../controllers/portfolio.controller'
 
 const router = Router()
 
-router.get('/', contentCtrl.getData)
+// GET ALL CONTENT 
+router.get('/portfolio', contentCtrl.getData)
+
+//GET PORTFOLIO 
+router.get('/portfolio/project', contentCtrl.getPortfolio)
+
+//GET PROJECT
+router.get('/portfolio/project/:id', contentCtrl.getProject)
 
 export default router

@@ -7,5 +7,17 @@ export const contentCtrl = {
         const result = dataBase.getData();
 
         res.json({ message: result });
-    }
+    },
+    getPortfolio: (req: Request, res: Response) => {
+
+        const result = dataBase.getPortfolio();
+
+        res.json({ projects: result });
+    },
+    getProject: (req: Request, res: Response) => {
+
+        const result = dataBase.getProject();
+
+        res.json({ project: result });
+    },
 }
