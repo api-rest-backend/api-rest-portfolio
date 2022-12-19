@@ -1,5 +1,6 @@
 import { Request, Response } from 'express'
 import { content } from './db.json'
+import fs from 'fs'
 
 // interface newProject {
 //     name: string,
@@ -22,11 +23,13 @@ export const dataBase = {
         return content.portfolio
     },
     postProject: (addProject) => {
-        // const parsed = JSON.parse(nameProject)
-        // console.log(parsed)
-        // content.portfolio.push(parsed)
-
+        // PUSH NEW PROJECT
         console.log(addProject)
         content.portfolio.push(addProject)
+""
+        // WRITE NEW PROJECT
+        fs.writeFileSync("./db.json", addProject)
+        
+    
     }
 }
