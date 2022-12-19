@@ -1,6 +1,8 @@
 import { Request, Response } from "express";
 import { dataBase } from "../models/portfolio.model";
 
+
+
 export const contentCtrl = {
   getData: (req: Request, res: Response) => {
     const result = dataBase.getData();
@@ -20,7 +22,10 @@ export const contentCtrl = {
     res.json({ project: result[id] });
   },
   postProject: (req: Request, res: Response) => {
- 
-    const result = dataBase.postProject
+    const nameProject = req.body
+
+    const result = dataBase.postProject(nameProject)
+
+    res.json({ body: result })
   }
 };

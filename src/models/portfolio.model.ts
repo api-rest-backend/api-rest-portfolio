@@ -1,24 +1,28 @@
+import { Request, Response } from 'express'
 import { content } from './db.json'
+
+interface newProject {
+    name: string,
+    description: string,
+    url: string,
+    languages: Array<string>,
+    githubUrl: string,
+    image: string
+}
+
 
 export const dataBase = {
     getData: () => {
         return content
     },
-    getPortfolio: ()=> {
-        return content.portfolio 
-    },
-    getProject: ()=> {
+    getPortfolio: () => {
         return content.portfolio
     },
-    postProject: ()=> {
-        const newProject = {
-            "name": "",
-            "description": "",
-            "url": "",
-            "languages": [],
-            "githubUrl": "",
-            "image": ""
-        } 
-        content.portfolio.push(newProject);
+    getProject: () => {
+        return content.portfolio
+    },
+    postProject: (nameProject: newProject) => {
+
+        content.portfolio.push(nameProject)
     }
 }
