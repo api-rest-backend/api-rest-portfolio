@@ -1,14 +1,14 @@
 import { Request, Response } from "express";
 import { dataBase } from "../models/portfolio.model";
 
-export interface newProject {
-  name: string,
-  description: string,
-  url: string,
-  lenguages: Array<string>,
-  githubUrl: string,
-  image: string
-}
+// export interface newProject {
+//   name: string,
+//   description: string,
+//   url: string,
+//   lenguages: Array<string>,
+//   githubUrl: string,
+//   image: string
+// }
 
 
 export const contentCtrl = {
