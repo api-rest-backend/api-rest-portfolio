@@ -13,6 +13,6 @@ router.get('/portfolio/project', contentCtrl.getPortfolio)
 router.get('/portfolio/project/:id', contentCtrl.getProject)
 
 // POST PROJECT 
-router.post('/portfolio/project/:id', contentCtrl.postProject)
+router.post('/portfolio/project/', contentCtrl.postProject)
 
 export default router

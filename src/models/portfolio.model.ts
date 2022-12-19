@@ -1,14 +1,14 @@
 import { Request, Response } from 'express'
 import { content } from './db.json'
 
-interface newProject {
-    name: string,
-    description: string,
-    url: string,
-    languages: Array<string>,
-    githubUrl: string,
-    image: string
-}
+// interface newProject {
+//     name: string,
+//     description: string,
+//     url: string,
+//     languages: Array<string>,
+//     githubUrl: string,
+//     image: string
+// }
 
 
 export const dataBase = {
@@ -21,8 +21,12 @@ export const dataBase = {
     getProject: () => {
         return content.portfolio
     },
-    postProject: (nameProject: newProject) => {
+    postProject: (addProject) => {
+        // const parsed = JSON.parse(nameProject)
+        // console.log(parsed)
+        // content.portfolio.push(parsed)
 
-        content.portfolio.push(nameProject)
+        console.log(addProject)
+        content.portfolio.push(addProject)
     }
 }
