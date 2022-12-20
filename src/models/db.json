@@ -1,0 +1,152 @@
+{
+    "content": {
+        "cv": {
+            "personalData": {
+                "name": "",
+                "surname": "",
+                "label": "",
+                "img": "",
+                "location": "",
+                "email": "",
+                "phone": "",
+                "linkedin": "",
+                "github": "",
+                "summary": ""
+            },
+            "techSkills": [
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                }
+            ],
+            "softSkills": [
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                }
+            ],
+            "lenguages": [
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                }
+            ],
+            "experience": [
+                {
+                    "position": "",
+                    "time": ""
+                },
+                {
+                    "position": "",
+                    "time": ""
+                },
+                {
+                    "position": "",
+                    "time": ""
+                },
+                {
+                    "position": "",
+                    "time": ""
+                }
+            ]
+        },
+        "portfolio": [
+            {
+                "name": "Project 0",
+                "description": "",
+                "url": "",
+                "languages": [],
+                "githubUrl": "",
+                "image": ""
+            },
+            {
+                "name": "Project 1",
+                "description": "",
+                "url": "",
+                "languages": [],
+                "githubUrl": "",
+                "image": ""
+            },
+            {
+                "name": "Project 2",
+                "description": "",
+                "url": "",
+                "languages": [],
+                "githubUrl": "",
+                "image": ""
+            },
+            {
+                "name": "project 3",
+                "description": "Esto es la descripcion de un proyecto",
+                "url": "www.github.com",
+                "lenguages": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "githubUrl": "esto es una URL de GH",
+                "image": "esto es la URL de una img"
+            },
+            {
+                "name": "project 3",
+                "description": "Esto es la descripcion de un proyecto",
+                "url": "www.github.com",
+                "lenguages": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "githubUrl": "esto es una URL de GH",
+                "image": "esto es la URL de una img"
+            },
+            {
+                "name": "project 3",
+                "description": "Esto es la descripcion de un proyecto",
+                "url": "www.github.com",
+                "lenguages": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "githubUrl": "esto es una URL de GH",
+                "image": "esto es la URL de una img"
+            }
+        ]
+    }
+}

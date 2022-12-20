@@ -1,14 +1,6 @@
-import express, { Request, Response } from "express";
-import cors from 'cors';
+import app from './app';
+import portfolioRouter from './routes/portfolio.route'
 
-const app = express();
-app.use(cors());
-app.use(express.json());
-
-app.get('/', (_req: Request, res: Response) => {
-    console.log('soy dislexico')
-    res.send('soy dislexico')
-})
-
+// START SERVER
 const PORT = 3000
-app.listen(PORT, () => console.log(`server running on port ${PORT}`))
+const server = app.listen(PORT, () => console.log(`server running on port ${PORT}`))
