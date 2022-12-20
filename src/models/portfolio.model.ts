@@ -2,15 +2,6 @@ import { Request, Response } from 'express'
 import { content } from './db.json'
 import fs from 'fs'
 
-// interface newProject {
-//     name: string,
-//     description: string,
-//     url: string,
-//     languages: Array<string>,
-//     githubUrl: string,
-//     image: string
-// }
-
 
 export const dataBase = {
     getData: () => {
@@ -22,14 +13,26 @@ export const dataBase = {
     getProject: () => {
         return content.portfolio
     },
-    postProject: (addProject) => {
+    postProject: (newProject) => {
         // PUSH NEW PROJECT
-        console.log(addProject)
-        content.portfolio.push(addProject)
-""
+        console.log(newProject)
+        content.portfolio.push(newProject)
+
+        //PARSE THE DATA
+        const newParse = JSON.parse(newProject)
+
+        //READ ALL THE CONTENT
+        fs.readFile('./src/models/db.json', 'utf-8', (error, data) => {
+            if (!error) {
+                const content = JSON.stringify(data)
+                console.log(content)
+            } else if (error) {
+                console.log(error)
+            }
+        })
+
         // WRITE NEW PROJECT
-        fs.writeFileSync("./db.json", addProject)
-        
-    
+        // fs.writeFileSync('./src/models/db.json', newProject)
+
     }
 }
