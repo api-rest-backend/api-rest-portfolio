@@ -19,23 +19,26 @@ export const dataBase = {
         //content.portfolio.push(newProject)
 
         //PARSE THE NEW DATA
-        //const newParse = JSON.parse(newProject)
+        const newParsed = JSON.parse(newProject)
+        console.log(newParsed)
 
         //READ ALL THE CONTENT
-        const parsedContent = new Object((fs.readFile ('./src/models/db.json', 'utf-8', (error, data) => {
-            if (!error) {
-                console.log(JSON.parse(data));
-                return JSON.parse(data)
-            } else if (error) {
-                console.log(error)
+        fs.readFile('./src/models/db.json', 'utf-8', (error, data) => {
+            if (error) {
+                console.log(`ERROR: ${error}`)
+            } else {
+                const parsedContent = JSON.parse(data)
+                console.log(parsedContent)
+                // parsedContent.portfolio.push(newParsed)
+
             }
-        })) );
-        
+        })
+
         // PUSH NEW CONTENT INTO EXISTING CONTENT
-        console.log(parsedContent.portfolio)
+
 
         // WRITE NEW PROJECT 
-       // const addProject = fs.writeFileSync('./src/models/db.json', newProject)
+        // const addProject = fs.writeFileSync('./src/models/db.json', newProject)
 
     }
 }
