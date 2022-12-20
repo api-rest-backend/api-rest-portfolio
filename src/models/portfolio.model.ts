@@ -26,7 +26,6 @@ export const dataBase = {
         fs.readFile('./src/models/db.json', 'utf-8', (error, data) => {
             if (!error) {
                 const parsedContent = JSON.parse(data)
-                parsedContent.content.portfolio.push(newProject)
                 console.log(parsedContent)
                 return parsedContent
             } else if (error) {
@@ -34,7 +33,9 @@ export const dataBase = {
             }
         })
 
+
         // WRITE NEW PROJECT
-        fs.writeFileSync('./src/models/db.json', parsedContent)
+        // fs.writeFileSync('./src/models/db.json', newProject)
+
     }
 }
