@@ -15,4 +15,10 @@ router.get('/portfolio/project/:id', contentCtrl.getProject)
 // POST PROJECT 
 router.post('/portfolio/project/', contentCtrl.postProject)
 
+//PUT PROJECT
+router.put('/portfolio/project/:id', contentCtrl.putProject)
+
+//DELETE PROJECT
+router.delete('/portfolio/project/:id', contentCtrl.deleteProject)
+
 export default router
