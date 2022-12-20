@@ -110,6 +110,42 @@
                 "languages": [],
                 "githubUrl": "",
                 "image": ""
+            },
+            {
+                "name": "project 3",
+                "description": "Esto es la descripcion de un proyecto",
+                "url": "www.github.com",
+                "lenguages": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "githubUrl": "esto es una URL de GH",
+                "image": "esto es la URL de una img"
+            },
+            {
+                "name": "project 3",
+                "description": "Esto es la descripcion de un proyecto",
+                "url": "www.github.com",
+                "lenguages": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "githubUrl": "esto es una URL de GH",
+                "image": "esto es la URL de una img"
+            },
+            {
+                "name": "project 3",
+                "description": "Esto es la descripcion de un proyecto",
+                "url": "www.github.com",
+                "lenguages": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "githubUrl": "esto es una URL de GH",
+                "image": "esto es la URL de una img"
             }
         ]
     }
