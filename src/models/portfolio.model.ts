@@ -25,7 +25,6 @@ export const dataBase = {
     },
     postProject: (newProject: NewProject) => {
         jsonContent.content.portfolio.push(newProject)
-        console.log(jsonContent)
         fs.writeFileSync('src/models/db.json', JSON.stringify(jsonContent, null, 4), 'utf-8')
     },
     putProject: (name: string, id: number) => {

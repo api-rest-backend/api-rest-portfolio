@@ -7,10 +7,13 @@ import portfolioRouter from "./routes/portfolio.route"
 
 const app = express();
 
-// EXPRESS CONFIGURATION
-
+// APP CONFIGURATION
 app.use(cors());
 app.use(express.json());
 app.use(portfolioRouter)
 
+
+
+
+//EXPORT
 export default app

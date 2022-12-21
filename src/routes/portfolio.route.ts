@@ -3,7 +3,7 @@ import { contentCtrl } from '../controllers/portfolio.controller'
 
 const router = Router()
 
-// GET ALL CONTENT 
+// GET ALL CONTENT
 router.get('/portfolio', contentCtrl.getData)
 
 //GET PORTFOLIO 

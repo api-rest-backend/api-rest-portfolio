@@ -41,6 +41,7 @@ export const contentCtrl = {
 
     const result = dataBase.putProject(name, id)
     res.json({ result })
+    console.log(res.statusCode)
   },
   deleteProject: (req: Request, res: Response) => {
     const id: number = parseInt(req.params.id)
