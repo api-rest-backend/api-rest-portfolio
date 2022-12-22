@@ -96,21 +96,21 @@
                 "image": ""
             },
             {
-                "name": "project 3",
-                "description": "Esto es la descripcion de un proyecto",
-                "url": "www.github.com",
-                "lenguages": [
-                    "HTML",
-                    "CSS",
-                    "JS"
-                ],
-                "githubUrl": "esto es una URL de GH",
-                "image": "esto es la URL de una img"
+                "name": "Project 1",
+                "description": "",
+                "url": "",
+                "languages": [],
+                "githubUrl": "",
+                "image": ""
             },
             {
-                "name": "project1"
-            },
-            {}
+                "name": "Project 2",
+                "description": "",
+                "url": "",
+                "languages": [],
+                "githubUrl": "",
+                "image": ""
+            }
         ]
     }
 }
